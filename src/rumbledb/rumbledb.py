@@ -58,7 +58,3 @@ class RumbleDBMagic(Magics):
             return print(response['error-message'])
         else:
             return print(response)
-
-def load_ipython_extension(ipython):
-    ipython.register_magics(RumbleDBMagic)
-    

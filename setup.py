@@ -1,5 +1,6 @@
-from setuptools import setup
-setup(
+import setuptools
+
+setuptools.setup(
     # Name of the module
     name='rumbledb',
     version='1.17.0',
@@ -12,7 +13,8 @@ setup(
     author_email='gfourny@inf.ethz.ch',
     # License
     license='Apache License 2.0',
-    py_modules=['rumble'],
+    packages=setuptools.find_packages(where="src"),
+    package_dir={"": "src"},
     keywords='rumble jsoniq IPython jupyter',
     classifiers=[
         # Intended Audience.
