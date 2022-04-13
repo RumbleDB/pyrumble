@@ -3,19 +3,19 @@ import setuptools
 setuptools.setup(
     # Name of the module
     name='rumbledb',
-    version='1.17.0',
+    version='1.17.3',
     # Details
-    description='IPython wrapper to use the Rumble framework.',
+    description='Jupyter extensions to use RumbleDB in notebooks, in server mode or through Apache Livy.',
     # The project's main homepage.
-    url='https://github.com/RumbleDB/rumble',
+    url='https://www.rumbledb.org/',
     # Author details
     author='Ghislain Fourny',
-    author_email='gfourny@inf.ethz.ch',
+    author_email='ghislain.fourny@inf.ethz.ch',
     # License
     license='Apache License 2.0',
     packages=setuptools.find_packages(where="src"),
     package_dir={"": "src"},
-    keywords='rumble jsoniq IPython jupyter',
+    keywords='rumble jsoniq rumbledb json IPython jupyter',
     classifiers=[
         # Intended Audience.
         'Intended Audience :: Developers',
