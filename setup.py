@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     # Name of the module
     name='rumbledb',
-    version='1.17.3',
+    version='1.22.0',
     # Details
     description='Jupyter extensions to use RumbleDB in notebooks, in server mode or through Apache Livy.',
     # The project's main homepage.
